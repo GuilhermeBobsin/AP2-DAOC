@@ -1,15 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Home from './pages/Home';
 
-
-function App() {
+export default function App() {
   return (
-    <h1 className="text-4xl font-bold text-red-500 text-center mt-10">
-      Texto vermelho teste tailwind
-    </h1>
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-800">
+      <Home />
+    </div>
   );
 }
-
-export default App
